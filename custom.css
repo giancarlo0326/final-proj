@@ -1,0 +1,225 @@
+/*UNIVERSAL*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+/*MAIN BODY BACKGROUND COLOR*/
+body{
+    background: rgb(132,255,199);
+    background: -moz-linear-gradient(90deg, rgba(132,255,199,1) 0%, rgba(128,233,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(132,255,199,1) 0%, rgba(128,233,255,1) 100%);
+    background: linear-gradient(90deg, rgba(132,255,199,1) 0%, rgba(128,233,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#84ffc7",endColorstr="#80e9ff",GradientType=1);
+}
+
+/*POKEMON HOME PAGE IMAGE*/
+.header-img{
+    width: 96px;
+    height: 60px;
+}
+
+/*ITEMS INSIDE THE NAVBAR: HOME, STORE ETC.*/
+.nav-item{
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+/*HOME PAGE MAIN (WHERE FANTASY MEETS REALITY*/
+.wrapper{
+    margin: 50px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 5px 1px;
+    background: rgb(158,250,124);
+    background: -moz-radial-gradient(circle, rgba(158,250,124,1) 0%, rgba(28,189,255,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(158,250,124,1) 0%, rgba(28,189,255,1) 100%);
+    background: radial-gradient(circle, rgba(158,250,124,1) 0%, rgba(28,189,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9efa7c",endColorstr="#1cbdff",GradientType=1);
+}
+
+.feature-box{
+    padding: 30px;
+}
+
+.feature-box h1{
+    margin-top: 20%;
+}
+
+.feature-box p{
+    margin: 50px auto;
+}
+
+.title-img{
+    width: 100%; /* Make the image responsive */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: fit-content; /* Maintain the aspect ratio */
+    width: fit-content;
+    
+}
+
+
+
+.feature-img{
+    width: 100%;
+    padding: 40px;
+    border-radius: 10%;
+}
+
+.card{
+    margin: 50px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 5px 1px;
+    height: 100%;
+    background: rgb(158,250,124);
+    background: -moz-radial-gradient(circle, rgba(158,250,124,1) 0%, rgba(28,189,255,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(158,250,124,1) 0%, rgba(28,189,255,1) 100%);
+    background: radial-gradient(circle, rgba(158,250,124,1) 0%, rgba(28,189,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9efa7c",endColorstr="#1cbdff",GradientType=1);
+}
+
+.card-body {
+    height:20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.col-md-4 {
+    flex: 0 0 50%; /* Adjust as needed to fit both buttons on the same line */
+    max-width: 100%;
+}
+  
+.btn-One, .btn-Two {
+    width: 100%;
+    max-width: 100px; 
+    display: block;
+    margin: 0 auto;
+}
+  
+@media (max-width: 768px) {
+.container1 {
+    flex-wrap: wrap;
+}
+  
+.col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 10px; /* Adjust as needed for spacing between buttons on smaller screens */
+}
+}
+  
+.card-img-top{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.login-button{
+    padding: 20px;
+}
+
+.form-floating{
+    font-weight: 100;
+}
+
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust as needed */
+
+  }
+
+.container3 .login-button {
+    margin-left: 10px; /* Adjust as needed */
+  }
+
+#new-account {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(0,211,255);
+    background: -moz-linear-gradient(90deg, rgba(0,211,255,1) 0%, rgba(0,255,139,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,211,255,1) 0%, rgba(0,255,139,1) 100%);
+    background: linear-gradient(90deg, rgba(0,211,255,1) 0%, rgba(0,255,139,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00d3ff",endColorstr="#00ff8b",GradientType=1);
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+
+.collab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collab-img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: black;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+
+                
